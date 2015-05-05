@@ -9,7 +9,7 @@ $text-colour: #555;
 $border-color--light: $sec-colour--light-3;
 $border-color--dark: $text-colour; 
 
-$section-spacing: 2em;
+$section-spacing: 2.25em;
 $logo-shadow: darken($prim-colour, 5%);
 
 $prim-font: 'Lato', sans-serif;
@@ -92,23 +92,9 @@ h3 {
     color: $sec-colour;
     font-family: $prim-font;
     margin-top: 0;
-}
-
-h1 {
+    text-transform: uppercase;
     font-size: 1.3em;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    letter-spacing: 0.045em;
-}
-
-h2 {
-    font-size: 2em;
-    font-weight: 400;
-}
-
-h3 {
-    font-size: 1.25em;
-    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
 p {
@@ -156,7 +142,7 @@ p {
         font-size: 1em;
         letter-spacing: 0.1em;
         font-weight: normal;
-        font-size: 0.875em;
+        font-size: 0.855em;
         line-height: 1em;
         text-transform: none;
     }
@@ -183,10 +169,6 @@ p {
     color: $sec-colour--light-2;
     padding-bottom: $section-spacing;
 
-    .title-separator {
-        padding-bottom: 0.5em;
-    }
-
     .highlight {
         color: #fff;
     }
@@ -199,6 +181,9 @@ p {
 
     .block-pad {
         padding-top: 0;
+        p:last-child {
+            margin-bottom: 0;
+        }
     }
 }
 
@@ -274,12 +259,11 @@ body .pure-g [class *="pure-u"] {
     }
 }
 
-// .project-list {
-//     border-style: solid;
-//     border-color: $sec-colour--light-3;
-//     border-width: 2px 0;
-//     padding: 2em 0;
-// }
+.block-spacing.first {
+    margin-top: 10px;
+    padding: 0;
+    border: none;
+}
 
 .project {
 
@@ -443,7 +427,7 @@ body .pure-g [class *="pure-u"] {
 }
 
 .title-separator {
-    padding: $section-spacing 0;
+    padding: $section-spacing 0 1.25em;
     text-align: center;
     position: relative;
 
@@ -598,7 +582,7 @@ body .pure-g [class *="pure-u"] {
     }
 
     .header {
-        padding: 1.25em 0;
+        padding: 1.5em 0;
         text-align: left;
 
         h2 {
@@ -643,7 +627,7 @@ body .pure-g [class *="pure-u"] {
 
     .title-portfolio {
         h2 {
-            width: 520px;
+            width: 160px;
             background: #fff;
         }
 
@@ -656,7 +640,7 @@ body .pure-g [class *="pure-u"] {
 
     .title-about {
         h2 {
-            width: 180px;
+            width: 160px;
             background: $sec-colour--light-1;
         }
 
