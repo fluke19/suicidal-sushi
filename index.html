@@ -27,8 +27,8 @@
 	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic,300italic,300' rel='stylesheet' type='text/css'>    
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
 
     <!--[if lte IE 8]>
     	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
@@ -41,11 +41,20 @@
 </head>
 <body>
 
+	<svg display="none" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<defs>
+		<symbol id="icon-star-full" viewBox="0 0 1024 1024">
+			<title>star-full</title>
+			<path class="path1" d="M1024 397.050l-353.78-51.408-158.22-320.582-158.216 320.582-353.784 51.408 256 249.538-60.432 352.352 316.432-166.358 316.432 166.358-60.434-352.352 256.002-249.538z"></path>
+		</symbol>
+		</defs>
+	</svg>
+
 	<div class="wrapper">
 
 		<header id="top" class="header">
 			<div class="container pure-g">
-				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-4">
+				<div class="pure-u-1 pure-u-md-2-3 pure-u-lg-3-4">
 					<div class="logo-container block-column">
 						<div class="logo">
 							<div class="logo__box">
@@ -61,7 +70,7 @@
 			        	<h3>Web designer and general pixel pusher</h3>
 			        </hgroup>
 			     </div>
-		        <nav class="nav pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+		        <nav class="nav pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
 		        	<ul class="unstyled-list">
 		        		<li>
 		        			<a href="#content">Portfolio</a>
@@ -78,30 +87,37 @@
 	    </header>
 
 	    <section class="welcome">
+	    	
 	    	<div class="container">
 		    	<h2>
-		    		Welcome to my portfolio
+		    		<!--<svg class="icon icon-star-full left"><use xlink:href="#icon-star-full"></use></svg>-->
+		    		
+		    		<div class="header-text">This is my portfolio.</div>
+<!-- 		    		<div class="header-shadow">
+		    			<div class="header-shadow__1">Welcome to my portfolio.</div>
+		    			<div class="header-shadow__2">Welcome to my portfolio.</div>
+		    			<div class="header-shadow__3">Welcome to my portfolio.</div>
+		    		</div> -->
+		    		
+		    		<!--<svg class="icon icon-star-full right"><use xlink:href="#icon-star-full"></use></svg>-->
 		    	</h2>
 		    	<p>
-		    		My name is Luke Haynes and I enjoy building websites, sometimes...I get my jollies out of creating great user experiences and using the newest tools and techniques to do so. I am currently enjoying building <span class="highlight">responsive websites</span> and doing <span class="highlight">CSS3 animations</span>. Below is collection of websites I have done over the past 2 years. I hope you like them, or not I am not too fussed (please like them).
+		    		My name is Luke Haynes and I am a web designer (at heart). I simply like building and designing websites. I have been training as a front-end developer for 2 years but I want a switch to web design as I feel I have more of a passion for it. The work below doesn't fully demonstrate what I am capable of but I am currently working on that in my spare time. <br /><span class="highlight">So watch this space!</span>  
 		    	</p>
 	    	</div>
 	    </section>
 
 		<section id="content" class="content">
-			
-			<div class="title-separator title-portfolio">
-				<div class="container">
-					<div class="header-container">
-						<h3>Portfolio</h3>
-					</div>
-				</div>
-			</div>
 
 			<div class="container">
-				<section class="project-list">
+				<section class="project-list project">
+					<div class="title-separator title-portfolio">
+						<div class="header-container project__container">
+							<h3>Portfolio</h3>
+						</div>
+					</div>
 
-					<section class="project block-spacing first">
+					<section class="block-spacing first">
 
 						<div class="project__container">
 						    <div class="pure-g">
@@ -132,7 +148,7 @@
 				    	</div>
 			    	</section>
 
-			        <section class="project block-spacing">
+			        <section class="block-spacing">
 			        	<div class="project__container">
 						    <div class="pure-g">
 						    	<div class="pure-u-1 pure-u-md-2-3 block-pad">
@@ -162,7 +178,7 @@
 				    	</div>
 			    	</section>
 
-			        <section class="project block-spacing">
+			        <section class="block-spacing">
 			        	<div class="project__container">
 						    <div class="pure-g">
 						    	<div class="pure-u-1 pure-u-md-2-3 block-pad">
@@ -211,23 +227,23 @@
 			    <section class="pure-g">
 		        	<div class="pure-u-1 pure-u-md-2-3 block-pad">
 		        		<p>
-		        			I am a graduate of Interactive Media whilst working in the industry for about two and a half years. I get a lot of satifaction out of creating great user experiences combined with the latest trends and tools.
+		        			I am a graduate of Interactive Media, whilst working as a front-end developer for about two and a half years. I occasionally do some freelancing in my spare time to allow myself to work on projects I want, whilst keeping up to date with the latest techniques and trends. 
 		        		</p>
 			        	
 			        	<p>
-			        		Over the past couple of years I have honed my skills in <span class="highlight">HTML5</span>, <span class="highlight">CSS3</span>, <span class="highlight">JS & jQuery</span>. I am familiar with the Adobe design suite, like <span class="highlight">Photoshop</span> and <span class="highlight">Illustrator</span> whlist using tools like <span class="highlight">Balsamiq</span> for wireframing/prototyping.
+			        		Over the past couple of years I have honed my skills in <span class="highlight">HTML5</span>, <span class="highlight">CSS3</span>, <span class="highlight">JS & jQuery</span>. I am familiar with the Adobe design suite, like <span class="highlight">Photoshop</span> and <span class="highlight">Illustrator</span> whilst using tools like <span class="highlight">Balsamiq</span> and <span class="highlight">Bootstrap</span> for wireframing/prototyping.
 			        	</p>
 			        	<p>
 			        		I have worked in a collabrative environment which has used <span class="highlight">SVN/Mercurial</span> and use <span class="highlight">Git</span> in my spare time.
 			        	</p>
 
 			        	<p>
-			        		When I am not working I enjoy watching football, reading graphic novels/manga, playing tennis and relaxing with friends and family.  
+			        		When I am not working, I enjoy watching football, reading graphic novels/manga, playing tennis and relaxing with friends and family.  
 			        	</p>
 		        	</div>
 		        	<div class="pure-u-1 pure-u-md-1-3">
 		        		<p>
-		        			If you want to contact me, just send me an email at <a href="mailto:fluke19@gmail.com">fluke19@gmail.com</a>
+		        			If you want to contact me for whatever reason, just send me an email at <a href="mailto:fluke19@gmail.com">fluke19@gmail.com</a>
 		        		</p>
 		        	</div>
 		        </section>
