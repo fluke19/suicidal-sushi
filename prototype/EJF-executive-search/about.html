@@ -1,0 +1,48 @@
+<!doctype html> <html class=no-js> <head> <meta charset=utf-8> <meta name=description> <meta name=viewport content="width=device-width, initial-scale=1"> <title>EJF executive search</title> <link rel=apple-touch-icon href=apple-touch-icon.png>  <link rel=stylesheet href=styles/main.css> <link href="http://fonts.googleapis.com/css?family=Lato" rel=stylesheet type=text/css> <link href="http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel=stylesheet type=text/css> <script src=scripts/vendor/modernizr.js></script> </head> <body data-spy=scroll data-target=#navigation> <!--[if lt IE 10]>
+ <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+ <![endif]--> <nav id=navigation class="navbar navbar-inverse navbar-fixed-top panel-affix shrink"> <div class=container>  <div class=navbar-header> <button type=button class="navbar-toggle collapsed" data-toggle=collapse data-target=#bs-example-navbar-collapse-1 aria-expanded=false> <span class=sr-only>Toggle navigation</span> <span class=icon-bar></span> <span class=icon-bar></span> <span class=icon-bar></span> </button> <a class="navbar-brand hidden-xs" href=#><span style="display: inline-block; vertical-align: middle;">Executive Search</span></a> </div>  <div class="collapse navbar-collapse" id=bs-example-navbar-collapse-1> <ul class="nav navbar-nav navbar-right"> <li><a href=#header>Home</a></li> <li><a href=#services>Services</a></li> <li><a href=#about>About</a></li> <li><a href=#approach>Approach</a></li> <li><a href=#assignments>Assignments</a></li> <li><a href=#contact>Contact</a></li> </ul> </div> </div> </nav> <section class=container-more> <div class=container> <div class=row> <div class="col-lg-12 text-center"> <h2 class=section-heading>About us</h2> <hr class=primary> </div> </div> </div> <div class="container about-box container-more__content"> <div class=row> <div class=col-lg-6> <div class=standard-image></div> </div> <div class=col-lg-6> <div class=about-text-container> <div class="text-muted about-text"> <p>At EJF Search we partner with leading brands to identify exceptional individuals with the appropriate experience, skill sets and culture fit for some of the most demanding roles in the fashion, luxury and lifestyle industries. We have developed a profound knowledge of these industries and have perfected our search procedures through practical experience.</p> <p>EJF is led by Emma Farrant who has a classically trained background in Executive Search, with over 10 years’ experience working on high profile searches across the retail and consumer brands industry. Emma has worked for a number of highly successful boutique firms, and in 2007 she established her own consultancy which focuses on partnering her business across the breadth of the retail industry.</p> <p>EJF has successfully worked with clients ranging from multichannel retailers to international brands across the lifestyle, fashion and luxury sectors – working across all specialist Head Office disciplines at Board and Management level. EJF delivers a consultative approach where we partner with clients, identifying talent and assessing their business requirements.</p> <p>Emma Farrant and the team have built credible long term relationships with their clients and industry network by providing a first class service. With our clients, we partner and share our expertise and our outstanding network of candidates and industry insight.</p> <p>We have extensive knowledge and experience of working with both UK and international companies, with a successful global reach.</p> </div> </div> </div> </div> </div> </section> <footer id=fake-footer class=text-center> <div class=container> <p>© 2015, EJF Executive search, All Rights Reserved</p> </div> </footer>  <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script> <script src=scripts/vendor.js></script> <script src=scripts/plugins.js></script> <script src=scripts/main.js></script> <script>
+      $(document).ready(function(){
+
+  //Offset scrollspy height to highlight li elements at good window height
+  $('body').scrollspy({
+    offset: 50
+  });
+
+  //Smooth Scrolling For Internal Page Links
+  $(function() {
+    $('.navbar a, #header a').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+        }
+      }
+    });
+  });
+
+  // $(window).scroll(function() {
+  //   if ($(document).scrollTop() > 50) {
+  //     $('nav').addClass('shrink');
+  //   } else {
+  //     $('nav').removeClass('shrink');
+  //   }
+  // });
+
+  $('.carousel').carousel({
+      interval: false
+  }) 
+
+});
+
+    </script> </body> </html> 
