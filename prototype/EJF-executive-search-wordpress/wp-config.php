@@ -25,7 +25,7 @@ define('DB_USER', 'fluke19_wp1');
 define('DB_PASSWORD', 'V#X1&phDNK11.(9');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'http://lukehaynes.me/prototype/EJF-executive-search-wordpress/');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
