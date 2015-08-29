@@ -1,35 +1,17 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
 
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define('WP_USE_THEMES', true);
 
-		<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-
-			<h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
-
-			<?php include (TEMPLATEPATH . '/inc/meta.php' ); ?>
-
-			<div class="entry">
-				<?php the_content(); ?>
-			</div>
-
-			<div class="postmetadata">
-				<?php the_tags('Tags: ', ', ', '<br />'); ?>
-				Posted in <?php the_category(', ') ?> | 
-				<?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?>
-			</div>
-
-		</div>
-
-	<?php endwhile; ?>
-
-	<?php include (TEMPLATEPATH . '/inc/nav.php' ); ?>
-
-	<?php else : ?>
-
-		<h2>Not Found</h2>
-
-	<?php endif; ?>
-
-<?php get_sidebar(); ?>
-
-<?php get_footer(); ?>
+/** Loads the WordPress Environment and Template */
+require( dirname( __FILE__ ) . '/wp-blog-header.php' );
