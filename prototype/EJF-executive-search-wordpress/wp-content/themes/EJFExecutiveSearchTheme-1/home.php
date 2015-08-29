@@ -272,8 +272,8 @@
             <h2 class="section-heading">Recent Assignments</h2>
             <hr class="primary">
             <div class="title">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet ipsum quis lorem consequat, vitae pellentesque nisl auctor. Cras pulvinar sapien tellus, a consequat diam suscipit ac. Pellentesque ultrices urna tortor, a hendrerit est faucibus in.</p>
-                <a href="/assignments" class="btn btn-primary" role="button">Read more</a>
+                <p>EJF assignments is the career management source for senior executives interested in career management, the executive job market, and executive search.</p>
+                <a href="/assignment" class="btn btn-primary" role="button">Read more</a>
             </div>
         </div>
       </div>
@@ -338,10 +338,23 @@
     </div>
   </section>
 
-    <?php
-$include = get_pages('include=44');
-$content = apply_filters('the_content',$include[0]->post_content);
-echo $content;
-?>
+  <section id="contact" class="bg-image">
+    <div class="bg-image__text">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Contact us</h2>
+            <hr class="light">
+            <p class="title">We'd love to hear form you. Please send us your questions, comments or concerns by filling out the form below.<br />We'll do our best to get back to you quickly as possible, usually within 1-2 business days.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container container-form">
+        <?php echo do_shortcode('[contact-form-7 id="41" title="Contact form 1"]'); ?>
+      </div>
+    </div>
+  </section>
+
+
 
 <?php get_footer(); ?>

@@ -3,10 +3,7 @@
 
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>" />
-	
-	<?php if (is_search()) { ?>
-	   <meta name="robots" content="noindex, nofollow" /> 
-	<?php } ?>
+
 
 	<title>
 		   <?php
@@ -28,16 +25,14 @@
 		         echo ' - page '. $paged; }
 		   ?>
 	</title>
-	
+
+	<?php wp_head(); ?>
+
 	<link rel="shortcut icon" href="/favicon.ico">
 	
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-
-	<?php if ( is_singular() ) wp_enqueue_script('comment-reply'); ?>
-
-	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>

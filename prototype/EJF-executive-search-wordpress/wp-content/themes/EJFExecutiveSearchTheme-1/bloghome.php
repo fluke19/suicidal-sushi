@@ -66,7 +66,7 @@
 					        <hr class="secondary">
 					        <p><?php include (TEMPLATEPATH . '/inc/meta.php'); ?></p>
 				        </div>
-				        <p><?php $excerpt = get_the_excerpt(); echo string_limit_words($excerpt,50); ?></p>
+				        <p class="text-center"><?php $excerpt = get_the_excerpt(); echo string_limit_words($excerpt,50); ?></p>
 				        <p class="text-center"><a href="<?php the_permalink(); ?>" class="btn btn-secondary" role="button">Read more</a></p>
 				     
 				    </div>

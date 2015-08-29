@@ -1,3 +1,17 @@
+/*
+Theme Name: EJF Executive v1
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: Luke Haynes
+Author URI: lukehaynes.me
+Description: EJF Executive Search first them
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: EJFExecutiveSearch
+*/
+
+
 @charset "UTF-8";
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
@@ -1570,7 +1584,7 @@ p {
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.4;
 }
 
@@ -5886,12 +5900,12 @@ a.badge:focus {
 .jumbotron p {
   margin-bottom: 15px;
   font-size: 21px;
-  font-weight: 200;
+  font-weight: 400;
   text-align: center;
 }
 
 .jumbotron .lead {
-	text-align: justify;
+	text-align: center;
 }
 
 .jumbotron > hr {
@@ -5945,7 +5959,7 @@ a.badge:focus {
 
 .thumbnail .caption {
   padding: 10px 20px 60px;
-  color: #333333;
+  color: #000;
 }
 
 a.thumbnail:hover,
@@ -10266,7 +10280,7 @@ body {
 
 body {
   font-family: 'Lato','Helvetica Neue',Arial,sans-serif;
-  color: #525252;
+  color: #777;
 }
 
 a {
@@ -10325,11 +10339,11 @@ h4 {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
 	font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
 
-h4,
 h5,
 h6 {
 	font-family: Lato,'Helvetica Neue',Arial,sans-serif;
@@ -10350,7 +10364,6 @@ h6 {
 
 p {
   font-size: 14px;
-  font-weight: 300;
   letter-spacing: 0;
   line-height: 26px;
   margin: 25px auto;
@@ -10363,6 +10376,12 @@ p:empty {
 .title {
   margin: 25px auto 50px;
   line-height: 26px;
+}
+
+.title,
+.title p {
+	font-weight: 400;
+	color: #000;
 }
 
 .navbar-inverse .navbar-brand {
@@ -10445,7 +10464,7 @@ header {
 .jumbotron p {
   font-size: 14px;
   color: white;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
   margin-top: 30px;
   line-height: 22px;
@@ -10531,15 +10550,15 @@ header.bg-image {
   margin-top: 5px;
 }
 
-.bg-image__text form {
-  margin-bottom: 50px;
-}
-
 .bg-image__text h2 {
   color: #fff;
 }
 
 .bg-image__text .author {
+	color: #fff;
+}
+
+.bg-image__text .title {
 	color: #fff;
 }
 
@@ -10721,7 +10740,7 @@ header.bg-image {
 .navbar-inverse {
   background: #000;
   border: none;
-  transition: all 1s;
+  transition: all .5s;
   min-height: 50px;
 }
 
@@ -10974,7 +10993,6 @@ footer p {
   margin: 0;
   display: inline-block;
   vertical-align: middle;
-  color: inherit;
   max-width: 170px;
 }
 
@@ -11042,7 +11060,7 @@ div.preview:first-of-type{
 
 .author {
 	font-weight: 500;
-	color: #525252;
+	color: #000;
 }
 
 .post-header {
@@ -11050,6 +11068,7 @@ div.preview:first-of-type{
 	font-size: 22px;
 	letter-spacing: 0;
 	line-height: 32px;
+	margin-top: 20px;
 }
 
 .sidebar {
@@ -11092,7 +11111,7 @@ div.preview:first-of-type{
 }
 
 .meta a {
-	color: #525252;
+	color: #000;
 }
 
 
@@ -11110,6 +11129,16 @@ div.preview:first-of-type{
 
 }
 
+.bg-image__text input[type="submit"] {
+	margin-top: 10px;
+}
+
+div.wpcf7-response-output {
+	padding: 10px !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
@@ -11123,7 +11152,7 @@ div.preview:first-of-type{
   .standard-image.image-1,
   .standard-image.image-2,
   .standard-image.image-3 {
-    background-position: 0 -250px;
+    background-position: 0 -170px;
   }
 }
 
@@ -11210,7 +11239,7 @@ div.preview:first-of-type{
     float: right !important;
   }
   section, header, .bg-image {
-    padding: 80px 0;
+    padding: 60px 0;
   }
   .navbar-nav {
     margin-top: auto;
@@ -11291,6 +11320,10 @@ div.preview:first-of-type{
   .service-box  {
   	  min-height: 385px;
   	  margin-top: 0;
+  }
+
+  .service-box h3 {
+  	  padding: 0 20px;
   }
   .thumbnail {
   	  height: 525px;

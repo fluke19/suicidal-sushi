@@ -53,7 +53,7 @@
 	<div class="container">
 
 			<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-					<div><?php the_time('F jS, Y') ?></div>
+					<div style="color: black;"><?php the_time('F jS, Y') ?></div>
 
 				<div class="entry">
 					
@@ -61,7 +61,7 @@
 
 					<?php wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); ?>
 					
-					<?php the_tags( 'Tags: ', ', ', ''); ?>
+					<div style="color: black"><?php the_tags( 'Tags: ', ', ', ''); ?></div>
 
 				</div>
 				
