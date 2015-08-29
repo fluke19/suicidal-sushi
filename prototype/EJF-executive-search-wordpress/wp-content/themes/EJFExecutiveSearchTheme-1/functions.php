@@ -51,6 +51,12 @@
 
     add_theme_support('post-thumbnails');
 
+    // Google fonts
+    function load_fonts() {
+            wp_enqueue_style('googleFonts-1', 'http://fonts.googleapis.com/css?family=Lato');
+            wp_enqueue_style('googleFonts-2', 'http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic');
+        }
 
+    add_action('wp_print_styles', 'load_fonts');
 
 ?>
