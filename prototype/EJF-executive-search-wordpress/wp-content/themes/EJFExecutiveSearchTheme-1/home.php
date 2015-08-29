@@ -273,7 +273,7 @@
             <hr class="primary">
             <div class="title">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet ipsum quis lorem consequat, vitae pellentesque nisl auctor. Cras pulvinar sapien tellus, a consequat diam suscipit ac. Pellentesque ultrices urna tortor, a hendrerit est faucibus in.</p>
-                <a href="/assignment" class="btn btn-primary" role="button">Read more</a>
+                <a href="/assignments" class="btn btn-primary" role="button">Read more</a>
             </div>
         </div>
       </div>
