@@ -7,7 +7,7 @@
 		"uuidString": "BE64C268-DDCE-4D3D-B8EE-4CEC10B7C6FD"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25568",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -951,137 +951,25 @@
 		"oAP": "\/.sass-cache\/fd0290a1d049099610abd9a47673f17e936f12bb\/_bourbon.scssc",
 		"oF": 0
 		},
-	"\/android-chrome-144x144.png": {
-		"ft": 32768,
-		"iS": 8952,
-		"oA": 0,
-		"oAP": "\/android-chrome-144x144.png",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/android-chrome-192x192.png": {
 		"ft": 32768,
-		"iS": 17517,
+		"iS": 2695,
 		"oA": 0,
 		"oAP": "\/android-chrome-192x192.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/android-chrome-36x36.png": {
+	"\/android-chrome-256x256.png": {
 		"ft": 32768,
-		"iS": 1123,
+		"iS": 4592,
 		"oA": 0,
-		"oAP": "\/android-chrome-36x36.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/android-chrome-48x48.png": {
-		"ft": 32768,
-		"iS": 1467,
-		"oA": 0,
-		"oAP": "\/android-chrome-48x48.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/android-chrome-72x72.png": {
-		"ft": 32768,
-		"iS": 2467,
-		"oA": 0,
-		"oAP": "\/android-chrome-72x72.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/android-chrome-96x96.png": {
-		"ft": 32768,
-		"iS": 4015,
-		"oA": 0,
-		"oAP": "\/android-chrome-96x96.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/apple-touch-icon-114x114.png": {
-		"ft": 32768,
-		"iS": 5563,
-		"oA": 0,
-		"oAP": "\/apple-touch-icon-114x114.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/apple-touch-icon-120x120.png": {
-		"ft": 32768,
-		"iS": 6304,
-		"oA": 0,
-		"oAP": "\/apple-touch-icon-120x120.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/apple-touch-icon-144x144.png": {
-		"ft": 32768,
-		"iS": 8952,
-		"oA": 0,
-		"oAP": "\/apple-touch-icon-144x144.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/apple-touch-icon-152x152.png": {
-		"ft": 32768,
-		"iS": 10085,
-		"oA": 0,
-		"oAP": "\/apple-touch-icon-152x152.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/apple-touch-icon-180x180.png": {
-		"ft": 32768,
-		"iS": 15008,
-		"oA": 0,
-		"oAP": "\/apple-touch-icon-180x180.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/apple-touch-icon-57x57.png": {
-		"ft": 32768,
-		"iS": 1721,
-		"oA": 0,
-		"oAP": "\/apple-touch-icon-57x57.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/apple-touch-icon-60x60.png": {
-		"ft": 32768,
-		"iS": 1837,
-		"oA": 0,
-		"oAP": "\/apple-touch-icon-60x60.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/apple-touch-icon-72x72.png": {
-		"ft": 32768,
-		"iS": 2467,
-		"oA": 0,
-		"oAP": "\/apple-touch-icon-72x72.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/apple-touch-icon-76x76.png": {
-		"ft": 32768,
-		"iS": 2635,
-		"oA": 0,
-		"oAP": "\/apple-touch-icon-76x76.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/apple-touch-icon-precomposed.png": {
-		"ft": 32768,
-		"iS": 15293,
-		"oA": 0,
-		"oAP": "\/apple-touch-icon-precomposed.png",
+		"oAP": "\/android-chrome-256x256.png",
 		"oF": 0,
 		"opt": 0
 		},
 	"\/apple-touch-icon.png": {
 		"ft": 32768,
-		"iS": 15008,
+		"iS": 2444,
 		"oA": 0,
 		"oAP": "\/apple-touch-icon.png",
 		"oF": 0,
@@ -1095,7 +983,7 @@
 		},
 	"\/favicon-16x16.png": {
 		"ft": 32768,
-		"iS": 1274,
+		"iS": 885,
 		"oA": 0,
 		"oAP": "\/favicon-16x16.png",
 		"oF": 0,
@@ -1103,17 +991,9 @@
 		},
 	"\/favicon-32x32.png": {
 		"ft": 32768,
-		"iS": 1025,
+		"iS": 1052,
 		"oA": 0,
 		"oAP": "\/favicon-32x32.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/favicon-96x96.png": {
-		"ft": 32768,
-		"iS": 4015,
-		"oA": 0,
-		"oAP": "\/favicon-96x96.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1275,6 +1155,30 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/suaposta-screen-1.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/suaposta-screen-1.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/suaposta-screen-2.png": {
+		"ft": 32768,
+		"iS": 136867,
+		"oA": 0,
+		"oAP": "\/img\/suaposta-screen-2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/suaposta-screen-3.png": {
+		"ft": 32768,
+		"iS": 163526,
+		"oA": 0,
+		"oAP": "\/img\/suaposta-screen-3.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/swirl_pattern.png": {
 		"ft": 32768,
 		"iS": 9475,
@@ -1293,7 +1197,7 @@
 		},
 	"\/index.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
@@ -1314,427 +1218,13 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/mstile-144x144.png": {
-		"ft": 32768,
-		"iS": 5962,
-		"oA": 0,
-		"oAP": "\/mstile-144x144.png",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/mstile-150x150.png": {
 		"ft": 32768,
-		"iS": 5294,
+		"iS": 2043,
 		"oA": 0,
 		"oAP": "\/mstile-150x150.png",
 		"oF": 0,
 		"opt": 0
-		},
-	"\/mstile-310x150.png": {
-		"ft": 32768,
-		"iS": 5664,
-		"oA": 0,
-		"oAP": "\/mstile-310x150.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/mstile-310x310.png": {
-		"ft": 32768,
-		"iS": 40158,
-		"oA": 0,
-		"oAP": "\/mstile-310x310.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/mstile-70x70.png": {
-		"ft": 32768,
-		"iS": 2952,
-		"oA": 0,
-		"oAP": "\/mstile-70x70.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/prototype\/EJF-executive-search-wordpress\/20150829_ejfexecutivesearch_55e2f03ab563d3668150830115954_archive.zip": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search-wordpress\/20150829_ejfexecutivesearch_55e2f03ab563d3668150830115954_archive.zip",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search-wordpress\/installer.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search-wordpress\/installer.php",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search-wordpress\/wp-login.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search-wordpress\/wp-login.php",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search-wordpress\/wp-settings.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search-wordpress\/wp-settings.php",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search-wordpress\/wp-signup.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search-wordpress\/wp-signup.php",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search-wordpress\/xmlrpc.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search-wordpress\/xmlrpc.php",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/.bowerrc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/.bowerrc",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/.editorconfig": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/.editorconfig",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/.gitattributes": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/.gitattributes",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/.gitignore": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/.gitignore",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/.tmp\/fonts\/fontawesome-webfont.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/.tmp\/fonts\/fontawesome-webfont.eot",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/.tmp\/fonts\/fontawesome-webfont.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/.tmp\/fonts\/fontawesome-webfont.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/prototype\/EJF-executive-search\/.tmp\/fonts\/fontawesome-webfont.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/.tmp\/fonts\/fontawesome-webfont.ttf",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/.tmp\/fonts\/fontawesome-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/.tmp\/fonts\/fontawesome-webfont.woff",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/.tmp\/fonts\/fontawesome-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/.tmp\/fonts\/fontawesome-webfont.woff2",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/.tmp\/fonts\/FontAwesome.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/.tmp\/fonts\/FontAwesome.otf",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/.tmp\/fonts\/glyphicons-halflings-regular.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/.tmp\/fonts\/glyphicons-halflings-regular.eot",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/.tmp\/fonts\/glyphicons-halflings-regular.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/.tmp\/fonts\/glyphicons-halflings-regular.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/prototype\/EJF-executive-search\/.tmp\/fonts\/glyphicons-halflings-regular.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/.tmp\/fonts\/glyphicons-halflings-regular.ttf",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/.tmp\/fonts\/glyphicons-halflings-regular.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/.tmp\/fonts\/glyphicons-halflings-regular.woff",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/.tmp\/fonts\/glyphicons-halflings-regular.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/.tmp\/fonts\/glyphicons-halflings-regular.woff2",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/.tmp\/styles\/main.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/.tmp\/styles\/main-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/prototype\/EJF-executive-search\/.yo-rc.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/prototype\/EJF-executive-search\/.yo-rc-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/prototype\/EJF-executive-search\/about.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/about.html",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/apple-touch-icon.png": {
-		"ft": 32768,
-		"iS": 6702,
-		"oA": 0,
-		"oAP": "\/prototype\/EJF-executive-search\/apple-touch-icon.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/prototype\/EJF-executive-search\/approach.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/approach.html",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/favicon.ico": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/favicon.ico",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/fonts\/fontawesome-webfont.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/fonts\/fontawesome-webfont.eot",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/fonts\/fontawesome-webfont.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/fonts\/fontawesome-webfont.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/prototype\/EJF-executive-search\/fonts\/fontawesome-webfont.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/fonts\/fontawesome-webfont.ttf",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/fonts\/fontawesome-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/fonts\/fontawesome-webfont.woff",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/fonts\/fontawesome-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/fonts\/fontawesome-webfont.woff2",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/fonts\/FontAwesome.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/fonts\/FontAwesome.otf",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/fonts\/glyphicons-halflings-regular.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/fonts\/glyphicons-halflings-regular.eot",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/fonts\/glyphicons-halflings-regular.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/fonts\/glyphicons-halflings-regular.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/prototype\/EJF-executive-search\/fonts\/glyphicons-halflings-regular.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/fonts\/glyphicons-halflings-regular.ttf",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/fonts\/glyphicons-halflings-regular.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/fonts\/glyphicons-halflings-regular.woff",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/fonts\/glyphicons-halflings-regular.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/fonts\/glyphicons-halflings-regular.woff2",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/images\/ejf-executive-search-shadow.png": {
-		"ft": 32768,
-		"iS": 10337,
-		"oA": 0,
-		"oAP": "\/prototype\/EJF-executive-search\/images\/ejf-executive-search-shadow.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/prototype\/EJF-executive-search\/images\/ejf-executive-search.png": {
-		"ft": 32768,
-		"iS": 9945,
-		"oA": 0,
-		"oAP": "\/prototype\/EJF-executive-search\/images\/ejf-executive-search.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/prototype\/EJF-executive-search\/images\/ejf-logo-small-mobile.png": {
-		"ft": 32768,
-		"iS": 3342,
-		"oA": 0,
-		"oAP": "\/prototype\/EJF-executive-search\/images\/ejf-logo-small-mobile.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/prototype\/EJF-executive-search\/images\/ejf-logo-small.png": {
-		"ft": 32768,
-		"iS": 17738,
-		"oA": 0,
-		"oAP": "\/prototype\/EJF-executive-search\/images\/ejf-logo-small.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/prototype\/EJF-executive-search\/images\/jumbotron-image.jpeg": {
-		"ft": 16384,
-		"iS": 7903093,
-		"oA": 0,
-		"oAP": "\/prototype\/EJF-executive-search\/images\/jumbotron-image.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/prototype\/EJF-executive-search\/images\/oxford-street.jpg": {
-		"ft": 16384,
-		"iS": 1688991,
-		"oA": 0,
-		"oAP": "\/prototype\/EJF-executive-search\/images\/oxford-street.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/prototype\/EJF-executive-search\/images\/paris.jpg": {
-		"ft": 16384,
-		"iS": 2592268,
-		"oA": 0,
-		"oAP": "\/prototype\/EJF-executive-search\/images\/paris.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/prototype\/EJF-executive-search\/images\/paris2.jpg": {
-		"ft": 16384,
-		"iS": 1576299,
-		"oA": 0,
-		"oAP": "\/prototype\/EJF-executive-search\/images\/paris2.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/prototype\/EJF-executive-search\/images\/singapore.jpg": {
-		"ft": 16384,
-		"iS": 889757,
-		"oA": 0,
-		"oAP": "\/prototype\/EJF-executive-search\/images\/singapore.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/prototype\/EJF-executive-search\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/index.html",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/robots.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/robots.txt",
-		"oF": 0
-		},
-	"\/prototype\/EJF-executive-search\/scripts\/main.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/prototype\/EJF-executive-search\/scripts\/min\/main-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/prototype\/EJF-executive-search\/scripts\/plugins.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/prototype\/EJF-executive-search\/scripts\/min\/plugins-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/prototype\/EJF-executive-search\/scripts\/vendor.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/prototype\/EJF-executive-search\/scripts\/min\/vendor-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/prototype\/EJF-executive-search\/scripts\/vendor\/modernizr.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/prototype\/EJF-executive-search\/scripts\/vendor\/min\/modernizr-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/prototype\/EJF-executive-search\/styles\/main.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/prototype\/EJF-executive-search\/styles\/main-min.css",
-		"oF": 0,
-		"oS": 0
 		},
 	"\/README.md": {
 		"cS": 0,
@@ -1753,6 +1243,16 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/stylesheets\/main.css.map": {
 		"ft": 8192,
@@ -1892,12 +1392,6 @@
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
-		},
-	"\/triangle": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/triangle",
-		"oF": 0
 		}
 	},
 "hooks": [
@@ -2556,6 +2050,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -2773,6 +2271,10 @@
 			"optionString": "{'grouping': false, 'allowCall': false }"
 			},
 		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -3096,9 +2598,17 @@
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
 			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -3193,6 +2703,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
