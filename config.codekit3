@@ -975,12 +975,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/browserconfig.xml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/browserconfig.xml",
-		"oF": 0
-		},
 	"\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 885,
@@ -1210,14 +1204,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/manifest.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/manifest-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"\/mstile-150x150.png": {
 		"ft": 32768,
 		"iS": 2043,
@@ -1225,24 +1211,6 @@
 		"oAP": "\/mstile-150x150.png",
 		"oF": 0,
 		"opt": 0
-		},
-	"\/README.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		},
 	"\/safari-pinned-tab.svg": {
 		"ft": 2097152,
