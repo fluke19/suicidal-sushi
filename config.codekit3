@@ -1170,6 +1170,39 @@
 		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
+	"\/img\/britbet-screen-1.png": {
+		"ft": 32768,
+		"iS": 344149,
+		"oA": 0,
+		"oAP": "\/img\/britbet-screen-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/britbet-screen-2.png": {
+		"ft": 32768,
+		"iS": 81305,
+		"oA": 0,
+		"oAP": "\/img\/britbet-screen-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/britbet-screen-3.png": {
+		"ft": 32768,
+		"iS": 173164,
+		"oA": 0,
+		"oAP": "\/img\/britbet-screen-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/darzemora-screen-1.png": {
 		"ft": 32768,
 		"iS": 519884,
