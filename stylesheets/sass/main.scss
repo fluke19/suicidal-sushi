@@ -228,7 +228,7 @@ p {
         letter-spacing: 0.1em;
         font-weight: 300;
         font-size: 0.75em;
-        line-height: 1em;
+        line-height: 1.5em;
         text-transform: none;
         font-family: $sec-font;
         font-style: italic;
@@ -261,7 +261,7 @@ p {
 
 .welcome {
     text-align: center;
-    padding: 3em 0 5em; 
+    padding: 3.3em 0 5em; 
     background: $prim-colour;
     color: #fff;
     position: relative;
@@ -889,13 +889,14 @@ body .pure-g [class *="pure-u"] {
     padding-left: 0;
     list-style: none;
     margin: 0;
-    padding-bottom: 40px;
+    padding-bottom: 35px;
 
     &-item {
       border: 1px solid #D7D9DA;
       display: inline-block;
       padding: 5px 15px;
       border-radius: 3px;
+      margin-bottom: 5px;
       color: $sec-colour;
       font-family: "Oswald",sans-serif;
       font-size: 12px;
@@ -941,6 +942,8 @@ body .pure-g [class *="pure-u"] {
             font-size: 3.25em;
         }
     }
+
+    header h3 {line-height: 1em;}
 
     .nav {
         text-align: right;
